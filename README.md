@@ -25,7 +25,7 @@ Le système détecte efficacement les anomalies (scans suspects, doublons de QR 
    source venv/bin/activate   # Activation de l'environnement
    pip install django         # Installation de Django
    django-admin startproject BackendProduits  # Création du projet Django
-   python mmanage.py startapp core   # Création d'une application du projet
+   python manage.py startapp core   # Création d'une application du projet
    pip install -r requirements.txt   # Installation des modules et dépendances python nécessaies pour le projet
    python manage.py makemigrations   # Mise place des migrations issues des modifications
    python manage.py migrate          # Migrations 
